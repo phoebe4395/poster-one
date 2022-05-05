@@ -1,0 +1,68 @@
+body{
+    background-color: blue;
+}
+
+div.poster{
+    background-color: blue;
+    width: 75%;
+}
+
+div.text{
+    font-size: 120px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    border: 2px;
+    transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+    font-size: 35px;
+    
+}
+
+div.text.two{
+    font-size: 85px;
+}
+
+div.text.three{
+    font-size: 150px;
+}
+
+/* rule 2 */
+
+div.text.a{
+    color:blue;
+}
+
+div.text.b{
+    color:rgb(0, 255, 85);
+}
+
+div.text.c{
+    color:rgb(255, 0, 106);
+}
+
+/* rule 3 */
+
+div.text.x{
+    text-align: center;
+
+}
+
+div.text.y{
+text-align: left;
+}
+
+div.text.z{
+text-align: right;
+}
+
+div.small{
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 0, 106);
+}
+
